@@ -1,0 +1,38 @@
+#navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        
+    width: 100%;
+    height: 7rem;
+
+    background-color: $rojo;
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        width: 80%;
+        height: 100%;
+        
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $blanco;
+            width: 60%;
+            height: 100%;
+            transition: all ease-in-out 0.2s;
+            
+            &:hover{
+                background-color: rgb(15, 15, 15);
+                color: $blanco;
+            }
+        }
+        .select{
+            background-color: rgb(15, 15, 15);
+            color: $blanco;
+        }
+    }
+}

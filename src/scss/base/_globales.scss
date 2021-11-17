@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+  
+*, *:before, *:after {
+    box-sizing: inherit; }
+
+body{
+    font-size: 1.7rem;
+    font-family: $priFont;
+
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
